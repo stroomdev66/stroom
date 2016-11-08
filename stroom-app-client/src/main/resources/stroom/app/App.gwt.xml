@@ -104,6 +104,12 @@
   <!-- Include GWTP -->
   <inherits name="com.gwtplatform.mvp.Mvp" />
 
+  <!-- GWT Material -->
+  <inherits name="gwt.material.design.GwtMaterialWithJQueryDebug"/>
+  <inherits name="gwt.material.design.themes.ThemeBlue"/>
+  <inherits name="gwt.material.design.addins.GwtMaterialAddinsDebug"/>
+  <inherits name="gwt.material.design.GwtMaterialTableDebug"/>
+
   <!-- Specify the app entry point class. -->
   <entry-point class='stroom.app.client.App' />
 

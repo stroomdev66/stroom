@@ -45,6 +45,8 @@
     <guice.version>3.0</guice.version>
     <gwtp-all.version>0.7</gwtp-all.version>
     <gin.version>2.1.2</gin.version>
+    <gwt-material.version>2.0-rc1</gwt-material.version>
+    <gwt-material-table.version>1.0-rc1</gwt-material-table.version>
     <gwt-d3-js.version>3.4.8</gwt-d3-js.version>
     <Saxon-HE.version>9.6.0-6</Saxon-HE.version>
     <jackson.version>2.5.3</jackson.version>
@@ -922,6 +924,28 @@
             <artifactId>gwtp-crawler-service</artifactId>
           </exclusion>
         </exclusions>
+      </dependency>
+
+      <!-- GwtMaterial -->
+      <dependency>
+        <groupId>com.github.gwtmaterialdesign</groupId>
+        <artifactId>gwt-material</artifactId>
+        <version>${gwt-material.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.gwtmaterialdesign</groupId>
+        <artifactId>gwt-material-themes</artifactId>
+        <version>${gwt-material.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.gwtmaterialdesign</groupId>
+        <artifactId>gwt-material-addins</artifactId>
+        <version>${gwt-material.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.gwtmaterialdesign</groupId>
+        <artifactId>gwt-material-table</artifactId>
+        <version>${gwt-material-table.version}</version>
       </dependency>
 
       <!-- GWT D3 Integration -->

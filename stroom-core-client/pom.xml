@@ -131,5 +131,23 @@
         </exclusion>
       </exclusions>
     </dependency>
+
+    <!-- GwtMaterial -->
+    <dependency>
+      <groupId>com.github.gwtmaterialdesign</groupId>
+      <artifactId>gwt-material</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.github.gwtmaterialdesign</groupId>
+      <artifactId>gwt-material-themes</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.github.gwtmaterialdesign</groupId>
+      <artifactId>gwt-material-addins</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.github.gwtmaterialdesign</groupId>
+      <artifactId>gwt-material-table</artifactId>
+    </dependency>
   </dependencies>
 </project>
